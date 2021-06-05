@@ -1,0 +1,6 @@
+framework module Pods_TYLibraryKit_Tests {
+  umbrella header "Pods-TYLibraryKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

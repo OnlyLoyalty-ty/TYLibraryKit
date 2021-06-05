@@ -1,0 +1,16 @@
+PODS:
+  - TYLibraryKit (0.1.0)
+
+DEPENDENCIES:
+  - TYLibraryKit (from `../`)
+
+EXTERNAL SOURCES:
+  TYLibraryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TYLibraryKit: 4faa606d6ceabd76a4f66cf20a7e6e7f4c2fb976
+
+PODFILE CHECKSUM: 61ca1c389435a7faeb84a0ed75bda8ecb64f30b1
+
+COCOAPODS: 1.9.3

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		04CA55BA26D31443184DFAB9 /* Pods-TYLibraryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYLibraryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYLibraryKit_Example/Pods-TYLibraryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		07B29D8AB77E89DC936570AE /* TYLibraryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYLibraryKit.podspec; path = ../TYLibraryKit.podspec; sourceTree = "<group>"; };
+		07B29D8AB77E89DC936570AE /* TYLibraryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYLibraryKit.podspec; path = ../TYLibraryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		177AE2E8A4C216155B04ECD9 /* Pods-TYLibraryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYLibraryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYLibraryKit_Tests/Pods-TYLibraryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4BCFB299AA416BC997564923 /* Pods_TYLibraryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYLibraryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		567788972532A48737DDF0F7 /* Pods-TYLibraryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYLibraryKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-TYLibraryKit_Tests/Pods-TYLibraryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,8 +63,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B77B936757BF874EBC07837F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C175BA6044F6179A9AB711CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B77B936757BF874EBC07837F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C175BA6044F6179A9AB711CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D0042D06F68A02245ECAD7E0 /* Pods-TYLibraryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYLibraryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-TYLibraryKit_Example/Pods-TYLibraryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D22786EF448DDA0F04C045B7 /* Pods_TYLibraryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYLibraryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				177AE2E8A4C216155B04ECD9 /* Pods-TYLibraryKit_Tests.debug.xcconfig */,
 				567788972532A48737DDF0F7 /* Pods-TYLibraryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

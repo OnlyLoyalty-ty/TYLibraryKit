@@ -1,0 +1,22 @@
+{
+  "name": "TYLibraryKit",
+  "version": "0.1.0",
+  "summary": "A short description of TYLibraryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/OnlyLoyalty-ty/TYLibraryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "OnlyLoyalty-ty": "2776425481@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/OnlyLoyalty-ty/TYLibraryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TYLibraryKit/Classes/**/*"
+}

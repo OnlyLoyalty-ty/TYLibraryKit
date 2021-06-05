@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TYLibraryKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TYLibraryKit.'
+  s.summary          = 'A local library for your own use of TYLibraryKit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A local library for your own use, which can be used quickly of TYLibraryKit.
                        DESC
 
   s.homepage         = 'https://github.com/OnlyLoyalty-ty/TYLibraryKit'
